@@ -20,7 +20,7 @@
   },
   "standard_charge_information": [
     {
-      "description": "Major hip and knee joint \"replacement or reattachment of lower extremity without mcc",
+      "description": "Major hip and knee joint replacement or reattachment of lower extremity without mcc",
       "code_information": [
         {
           "code": "470",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "description": "Evaluation of hearing function to determine \"candidacy \"for, or postoperative status of, surgically implanted hearing device; first hour",
+      "description": "Evaluation of hearing function to determine candidacy for, or postoperative status of, surgically implanted hearing device; first hour",
       "code_information": [
         {
           "code": "92626",
