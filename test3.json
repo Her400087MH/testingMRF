@@ -22,16 +22,13 @@
         "value": "22-2222222"
       }
     }]
-  },{
-    "provider_group_id": 2,
-    "location": "https://www.cms.gov/some_provider_group.json"
   }],
   "in_network": [{
     "negotiation_arrangement": "ffs",
     "name": "Knee Replacement",
     "billing_code_type": "CPT",
     "billing_code_type_version": "2020",
-    "billing_code": "27447",
+    "billing_code_test": "27447",
     "description": "Arthroplasty, knee condyle and plateau, medial and lateral compartments",
     "negotiated_rates": [{
       "provider_groups": [{
@@ -81,7 +78,7 @@
     "name": "Femur and Knee Joint Repair",
     "billing_code_type": "CPT",
     "billing_code_type_version": "2020",
-    "billing_code": "27448",
+    "billing_code_test": "27448",
     "description": "Under Repair, Revision, and/or Reconstruction Procedures on the Femur (Thigh Region) and Knee Joint",
     "negotiated_rates": [{
       "provider_references": [1],
