@@ -1,0 +1,60 @@
+{
+  "reporting_entity_name": "medicare",
+  "reporting_entity_type": "medicare",
+  "plan_name": "medicaid",
+  "plan_id_type": "hios",
+  "plan_id": "1111111111",
+  "plan_market_type": "individual",
+  "last_updated_on": "2020-08-27",
+  "version": "1.2.0",
+  "provider_references":[{
+    "provider_group_id": 1,
+    "provider_groups": [{
+      "npi": [1111111111, 2222222222, 3333333333, 4444444444, 5555555555],
+      "tin":{
+        "type": "ein",
+        "value": "11-1111111"
+      }
+    },{
+      "npi": [1111111111, 2222222222, 3333333333, 4444444444, 5555555555],
+      "tin":{
+        "type": "ein",
+        "value": "22-2222222"
+      }
+    }]
+  },{
+    "provider_group_id": 2,
+    "location": "https://www.cms.gov/some_provider_group.json"
+  }],
+  "in_network": [{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "MS-DRG",
+    "billing_code_type_version": "2020",
+    "billing_code": "100",
+    "description": "Arthroplasty, knee condyle and plateau, medial and lateral compartments",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1111111111, 2222222222, 3333333333, 4444444444, 5555555555],
+        "tin":{
+          "type": "ein",
+          "value": "11-1111111"
+        }
+      },{
+        "npi": [1111111111, 2222222222, 3333333333, 4444444444, 5555555555],
+        "tin":{
+          "type": "ein",
+          "value": "22-2222222"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 123.45,
+        "expiration_date": "2022-01-01",
+        "service_code": ["18", "19", "11"],
+        "billing_class": "institutional",
+        "billing_code_modifier": ["AS"]
+      }]
+      }]
+  }]
+}
