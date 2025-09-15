@@ -1,0 +1,248 @@
+{
+  "reporting_entity_name": "medicare",
+  "reporting_entity_type": "medicare",
+  "plan_name": "medicaid",
+  "plan_id_type": "hios",
+  "plan_id": "1111111111",
+  "plan_market_type": "individual",
+  "last_updated_on": "2020-08-27",
+  "version": "1.2.0",
+  "provider_references":[{
+    "provider_group_id": 1,
+    "provider_groups": [{
+      "npi": [1111111111, 2222222222, 3333333333, 4444444444, 5555555555],
+      "tin":{
+        "type": "ein",
+        "value": "11-1111111"
+      }
+    },{
+      "npi": [1111111111, 2222222222, 3333333333, 4444444444, 5555555555],
+      "tin":{
+        "type": "ein",
+        "value": "22-2222222"
+      }
+    }]
+  }],
+  "in_network": [{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "H7487",
+    "description": "Arthroplasty, knee condyle and plateau, medial and lateral compartments",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 750,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Femur and Knee Joint Repair",
+    "billing_code_type": "CPT",
+    "billing_code_type_version": "2020",
+    "billing_code": "27448",
+    "description": "Under Repair, Revision, and/or Reconstruction Procedures on the Femur (Thigh Region) and Knee Joint",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1568174589,1558572180,1558423640],
+        "tin":{
+          "type": "ein",
+          "value": "20280367"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 900,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },
+  {
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "H7487",
+    "description": "Arthroplasty, knee condyle and plateau, medial and lateral compartments",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 750,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "A1234",
+    "description": "test_hcpcs 1",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 450,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "J9999",
+    "description": "hcpcs test 2",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 400,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "1234A",
+    "description": "hcpcs test 3",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 350,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "_1234",
+    "description": "hcpc test 4",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 300,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "HCPCS",
+    "billing_code_type_version": "2020",
+    "billing_code": "a1234",
+    "description": "hcpcs test 5",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 250,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "CPT",
+    "billing_code_type_version": "2020",
+    "billing_code": "99213",
+    "description": "CPT test 1",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 200,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  },{
+    "negotiation_arrangement": "ffs",
+    "name": "Knee Replacement",
+    "billing_code_type": "CPT",
+    "billing_code_type_version": "2020",
+    "billing_code": "0071T",
+    "description": "cpt test 2",
+    "negotiated_rates": [{
+      "provider_groups": [{
+        "npi": [1558524249, 1568459253, 1568897437],
+        "tin":{
+          "type": "ein",
+          "value": "823962056"
+        }
+      }],
+      "negotiated_prices": [{
+        "negotiated_type": "negotiated",
+        "negotiated_rate": 100,
+        "expiration_date": "2022-01-01",
+        "billing_class": "institutional"
+      }]
+      }]
+  }]
+}
